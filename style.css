@@ -1,0 +1,111 @@
+*{
+
+  margin: 0;
+  border: 0;
+  /*padding: 0;*/
+}
+body{
+/*  background-color: #f0f0f0;
+  font:14px 20px Arial,San-serif;
+  color:#555 ;
+  padding: 25px 25px;*/
+}
+
+
+
+.first{
+/*  background-color: red;
+  padding: 12px 2px;
+  font-size: 25px;
+  text-align: center;*/
+
+}
+
+/*BACK GROUND COLOR THE MAIN CONTROL*/
+header{
+ /* background-color: white;
+  width: 90vw;
+  height: 13vh;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 100%;
+  opacity: .35;*/
+}
+/*#menu-icon{
+  display: hidden;
+  width: 30px;
+  height: 40px;
+  background: url(http://w3newbie.com/wp-content/uploads/icon.png) center;
+}*/
+/*a:hover#menu-icon {
+  border-radius: 4px 4px;
+}*/
+/*nav ul li{
+  background: #405580;
+  display: inline-block;
+  float: left;
+  padding: 0px 10px;
+}*/
+
+
+/*a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}*/
+/*a:hover{
+  color: #fff;
+  text-decoration: none;
+}*/
+
+/*#logo{
+  margin: 30px 40px;
+  float: left;
+  font-size: 180%;
+  background:url(http://w3newbie.com/wp-content/uploads/the-gym.png)no-repeat center;
+}*/
+
+/*ul.current{
+  margin: 30px 40px;
+  float: left;
+  font-size: 180%;
+}*/
+.sec_1{
+  padding: 20px;
+}
+/*.intro{
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}*/
+.pic1{
+  border-radius:4px;
+  width: 90vw;
+  height: 15vh;
+}
+
+.intro{
+  height: 25px;
+  width: 55px;
+}
+.text1,p{
+  float: right;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.column img{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
