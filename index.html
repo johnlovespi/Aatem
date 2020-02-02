@@ -17,16 +17,17 @@ body {
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
+background-color: #ffffff;
+  padding:100px 30px;
+
+    /*text-align: center;*/
 
 }
 
 /* Style the top navigation bar */
 .topnav {
-  overflow: hidden;
-  background-color: #D90007;
+ overflow: hidden;
+    background-color: #f5f6fa;
 
 }
 .topnav_2{
@@ -39,7 +40,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 30px 56px;
   text-decoration: none;
@@ -47,7 +48,7 @@ body {
 .topnav_2 a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 30px 56px;
   text-decoration: none;
@@ -55,7 +56,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #F9B5AC;
+  background-color: #487eb0;
   color: black;
 }
 .topnav_2 a:hover {
@@ -64,10 +65,11 @@ body {
 }
 /* Create three equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 7em;
-
+ float: left;
+ width: 33.33%;
+ padding: 86px;
+ text-align: center;
+ font-family: monospace;
 }
 .column p,h2{
   color: white;
@@ -75,15 +77,18 @@ body {
 
 
 .pic1{
-  width: 90vw;
-  height: 15vh;
+   width: 100%;
+    height: 24vh;
+    padding: 17px;
+    border-radius: 3px;
+    box-shadow: 0px 21px 16px #487eb0;
 }
 .pic2{
   width: 89vw;
   margin: 53px;
   text-align: center;
   height: 76vh;
-  border-style: double;
+  /*border-style: double;*/
   border-radius: 3px;
 }
 .title_text {
@@ -94,6 +99,11 @@ column-gap: 40px;
 column-rule-style: solid;
 font-size: 1em;
 
+}
+.inner_text{
+  padding: 14px;
+   border-style: solid;
+  border-left-color: coral;
 }
 .row_1{
   background-color: #D90007;
@@ -108,11 +118,11 @@ font-size: 1em;
 }
 
 .info{
-padding: 90px 104px 50px;
-text-align: center;
-background-color: white;
-font-family: monospace;
-font-size: xx-large;
+ padding: 90px 128px 63px;
+ text-align: center;
+ background-color: white;
+  font-family: monospace;
+ font-size: x-large;
 }
 
 
@@ -129,7 +139,7 @@ font-size: xx-large;
 <div class="header">
   <!-- <h1>Header</h1> -->
   <img class="pic1" src="images/alny.png">
-  <p>Resize the browser window to see the responsive effect.</p>
+  <!-- <p>Resize the browser window to see the responsive effect.</p> -->
 </div>
 <!-- END LOGO AREA //
 
@@ -191,34 +201,35 @@ NAVIGATION BELOW  -->
     Our carefully trained caregivers can provide a full array of personalized home care services.
   </div>
 
-
+<hr>
 <div class="title_text">
    <div class="inner_text">
-   <h3>Please call our customer service line for more information:</h3><h4>(800) 670-3470</h4>
-</div>
+        <h3>Please call our customer service line for more information:</h5><h4>(800) 670-3470</h4>
+   </div>
 
-<div class="inner_text">
+    <div class="inner_text">
 <!--    <h3>2570 E. 17th St.,Brooklyn, NY 11235 Walk-In Hours: 9:00 AM to 5:30 PM</h3>
  --></div>
 
 <div class="inner_text">
-   <h3>391 E. 149th St., Suite 305
-Bronx, NY 10455</h3>
-</div>
-<div class="inner_text">
-   <h3>40-16 82nd St., 2nd Fl,
-Elmhurst, NY 11373</h3>
-</div>
 
-<div class="inner_text">
-   <h3>1 W. 34th St., Ste 401,
-New York, NY 10001</h3>
+ <h4>40-16 82nd St., 2nd Fl,
+Elmhurst, NY 11373</h4>
 </div>
-<div class="inner_text">
-   <h3>2570 E. 17th St.,Brooklyn, NY 11235 Walk-In Hours: 9:00 AM to 5:30 PM</h3>
-</div>
+    <div class="inner_text">
+         <h4>391 E. 149th St., Suite 305
+Bronx, NY 10455</h4>
+    </div>
 
-</div>
+    <div class="inner_text">
+       <h4>1 W. 34th St., Ste 401,
+New York, NY 10001</h4>
+      </div>
+      <div class="inner_text">
+         <h4>2570 E. 17th St.,Brooklyn, NY 11235 Walk-In Hours: 9:00 AM to 5:30 PM</h4>
+      </div>
+
+      </div>
 
 <div class="topnav_2">
     <a href="#">Home</a>
